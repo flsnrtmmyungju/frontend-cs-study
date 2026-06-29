@@ -1,0 +1,16 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-expo-app@latest . --template blank-typescript)",
+      "Bash(git commit -m ' *)",
+      "Bash(npx create-expo-app@latest --version)",
+      "Bash(npm show *)",
+      "Bash(python3 -c \"import sys,json; v=json.load\\(sys.stdin\\); print\\([x for x in v if x.startswith\\('52.'\\)][-1]\\)\")",
+      "Bash(npx expo *)",
+      "Bash(mv /tmp/claude-backup2 /home/grib/cs-study/.claude)",
+      "Bash(mv /tmp/claude-backup /home/grib/cs-study/.claude)",
+      "Bash(mv .claude /tmp/claude-bak)",
+      "Bash(mv /tmp/claude-bak .claude)"
+    ]
+  }
+}
